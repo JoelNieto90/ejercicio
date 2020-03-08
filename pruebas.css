@@ -1,0 +1,80 @@
+body{
+	background-color: rgba(80, 10, 22, 0.8);
+}
+
+table{
+	font-size: 25px;
+	color: white;
+	width: 100%;
+}
+
+td{
+	background: linear-gradient( #9167da,  #cd2179);
+	font-size: 30px;
+	text-align: center;
+}
+
+tr{
+	font-family: sans-serif;
+	background: linear-gradient(#137dae, #040e61);
+}
+caption{
+	caption-side: top;
+}
+
+.gradien{
+	width: 100%;
+	height: 300px;
+	color: #FFF; 
+	background: linear-gradient(#d8bd0e, #d86e20,  #f0aaa7, #20d2d8);
+}
+
+@font-face {
+  font-family: A Sweet Melody My Lady; 
+  src: url('A Sweet Melody My Lady.ttf'); 
+} 
+
+caption{
+	font-family: A Sweet Melody My Lady, sans-serif; 
+	font-size: 45px;
+}
+
+.textoGRad {
+	font-family: A Sweet Melody My Lady, sans-serif; 
+	font-size: 60px;
+	text-align: center;
+	padding: 80px;
+	 text-shadow: 5px 10px 5px black, 
+      -3px 6px 5px #58d1e3;
+}
+
+.imgContainer {
+	width: 560px;
+	height: 300px;
+	border: 2px solid #FFF;
+	background: url("https://cdn2.iconfinder.com/data/icons/rcons-user/32/male-shadow-circle-128.png") right bottom no-repeat, 
+				url("https://cdnmundo4.img.sputniknews.com/images/108734/68/1087346861.jpg") left top;
+	background-size: contain;
+	opacity: 0.85;
+}
+
+p{
+	font-family: A Sweet Melody My Lady, sans-serif; 
+	font-size: 40px;
+	text-align: center;
+	padding-top: 90px;
+}
+
+#container{
+	width: 400px;
+	height: 400px;
+	background: linear-gradient(#d8bd0e, #d86e20,  #f0aaa7, #20d2d8);
+	position:relative;
+}
+
+#box{
+	width:50px;
+	height:50px;
+	background: url("https://scrapmexico.com/wp-content/uploads/2015/04/fondo-rosa-50px.jpg");
+	position: absolute;
+}
